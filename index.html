@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <h4>Seu Perfil</h4>
+        <div>Data de Nascimento:
+            <input type="date" name="dt" id="dt">
+        </div>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked> </input> <!--name deve ser igual-->
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        <p>
+        <div>
+            <input type="button" value="Verificar" onclick="clicou()">
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Brendon</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
